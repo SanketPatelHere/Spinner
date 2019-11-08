@@ -95,6 +95,16 @@ public class MainActivity1 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        //constaint layout
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity1.this, cons.class);
+                startActivity(i);
+            }
+        });
     }
+
 }
 
